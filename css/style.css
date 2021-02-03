@@ -1,0 +1,62 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+    * {
+        margin: 0;
+        border: 0;
+        font-size: 10px;
+        background-color: #EFEEEE;
+        font-family: 'Montserrat', sans-serif;
+        ;
+    }
+    
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+        width: 350px;
+        border-radius: 25px;
+        box-shadow: -6px -6px 26px 2px rgba(255, 255, 255), 6px 6px 16px 2px rgba(211, 205, 196)
+    }
+    
+    form h1 {
+        /* border: solid rgb(255, 255, 255, .5) 1px; */
+        margin: 40px 0 70px 0;
+        padding: 12px 30px;
+        font-size: 3.5rem;
+        font-weight: 400;
+        border-radius: 25px;
+        box-shadow: -5px -5px 20px 0 rgba(255, 255, 255, .8), 5px 5px 15px 0 rgba(199, 197, 193, 0.911);
+        text-transform: uppercase;
+    }
+    
+    .form-input {
+        width: 240px;
+        height: 40px;
+        border: solid 3px rgba(255, 255, 255, .2);
+        border-radius: 24px;
+        box-shadow: inset -10px -10px 15px 0 rgba(255, 255, 255, .8), inset 8px 8px 12px 0 rgba(199, 197, 193, 0.911);
+        margin: 30px 0;
+        text-align: center;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    
+    .login {
+        border-radius: 25px;
+        background: rgba(160, 255, 157, 0.4);
+        border-top: solid 1px rgba(255, 255, 255, .5);
+        border-left: solid 1px rgba(255, 255, 255, .5);
+        border-bottom: solid 1px rgba(199, 197, 193, 0.911);
+        border-right: solid 1px rgba(199, 197, 193, 0.911);
+        margin-top: 20px;
+        padding: 10px 30px;
+        font-size: 1.5rem;
+        box-shadow: -10px -10px 15px 0 rgba(255, 255, 255, .8), 8px 8px 12px 0 rgba(199, 197, 193, 0.911);
+    }
